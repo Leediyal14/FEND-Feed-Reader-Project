@@ -2,22 +2,42 @@
 
    Project 4 for **Google - Udacity FEND Nanodegree Scholarship** Program.
 
+### How to run this Application?
+
+   * Clone or download this repository to your local computer. If downloaded, unzip and open index.html file in a browser.
+
+   * [Check Here](https://leediyal14.github.io/FEND-Feed-Reader-Project/). You can see the number of specs and number of failures at the bottom of the page. If the failure is 0, then all the test passed.
+
+   * If you want to view the test suits written, please open `feedreader.js` file from `jasmine/spec` folder with your code editor.
+
+
+### Project Overview
+
+   * In this project you are given a web-based application that reads RSS feeds.
+
+   * The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite!
+
 ### Why this Project?
 
-Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development". This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
+   * Testing is an important part of the development process and many organizations practice a standard of development known as "test-driven development".
 
-Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
+   * This is when developers write tests first, before they ever start developing their application. All the tests initially fail and then they start writing application code to make these tests pass.
+
+   * Whether you work in an organization that uses test-driven development or in an organization that uses tests to make sure future feature development doesn't break existing features, it's an important skill to have!
 
 
 ### What will be learned from this project?
 
-It helps to learn how to use Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
+   * It helps to learn how to use Jasmine to write a number of tests against a pre-existing application.
+   
+   * These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
 
 
 ### How will this help in career?
 
-* Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
-* Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
+   * Writing effective tests requires analyzing multiple aspects of an application including the HTML, CSS and JavaScript - an extremely important skill when changing teams or joining a new company.
+
+   * Good tests give you the ability to quickly analyze whether new code breaks an existing feature within your codebase, without having to manually test all of the functionality.
 
 
 ### How to complete this project?
