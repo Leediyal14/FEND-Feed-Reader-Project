@@ -45,7 +45,7 @@ $(function() {
          */
         it('have defined URL', function () {
             allFeeds.forEach(function (feed) {
-                url = feed.url;
+                let url = feed.url;
                 expect(url).toBeDefined();
                 expect(url.length).not.toBe(0); // Non-empty URL
             });
@@ -57,7 +57,7 @@ $(function() {
          */
         it('have defined name', function () {
             allFeeds.forEach(function(feed) {
-                name = feed.name;
+                let name = feed.name;
                 expect(name).toBeDefined();
                 expect(name.length).not.toBe(0); // Non-empty Name
             });
@@ -119,10 +119,9 @@ $(function() {
             loadFeed(0, done);
         });
         
-        it('have atleast a single .entry element within the .feed container', function (done) {
+        it('have atleast a single .entry element within the .feed container', function () {
             let container = $('.feed .entry');
             expect(container.length).not.toBeLessThan(1); // Having atleast single element
-            done(); // Asynchronous done() function
         });
 
     }); // Suite 3 Ends
